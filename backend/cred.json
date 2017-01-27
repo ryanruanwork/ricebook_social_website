@@ -1,0 +1,8 @@
+{
+     "dummy_username": "sep1test",
+     "dummy_password": "native-web-tester",
+     "dummy_url": "https://webdev-dummy.herokuapp.com",
+     "site_username": "sep1test",
+     "site_password": "native-web-tester",
+     "site_url": "http://localhost:3000"
+}

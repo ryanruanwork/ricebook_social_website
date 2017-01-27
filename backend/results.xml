@@ -1,0 +1,11 @@
+
+> RicebookServer@1.0.0 test /Users/Ryan_Garfield/Documents/531 Web Dev/hw/hw6/backend
+> mocha --opts mocha.opts ./src/*.spec.js "-R" "xunit"
+
+<testsuite name="Mocha Tests" tests="5" failures="0" errors="0" skipped="0" timestamp="Wed, 09 Nov 2016 05:14:40 GMT" time="0.082">
+<testcase classname="Validate Article functionality" name="should give me three or more articles" time="0.035"/>
+<testcase classname="Validate Article functionality" name="should return an article with a specified id" time="0.007"/>
+<testcase classname="Validate Article functionality" name="should return nothing for an invalid id" time="0.008"/>
+<testcase classname="Validate Article functionality" name="should add an article and test the new id and text" time="0.018"/>
+<testcase classname="Validate Profile functionality" name="should update headline after use PUT" time="0.009"/>
+</testsuite>

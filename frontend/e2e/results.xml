@@ -1,0 +1,19 @@
+
+> starter@1.0.0 e2e:base /Users/Ryan_Garfield/Documents/531 Web Dev/hw/hw6/frontend
+> mocha --opts e2e/mocha.opts e2e/*.spec.js "--reporter" "xunit"
+
+<testsuite name="Mocha Tests" tests="13" failures="0" errors="0" skipped="0" timestamp="Mon, 07 Nov 2016 23:38:26 GMT" time="21.338">
+<testcase classname="End-to-End Test: Register new user" name="-should return success of the register process" time="0.33"/>
+<testcase classname=" End-to-End Test: MainPage" name="-should log in as the test user" time="0.536"/>
+<testcase classname=" End-to-End Test: MainPage" name="-should create new article and validate article appears in feed" time="1.207"/>
+<testcase classname=" End-to-End Test: MainPage" name="-should edit an article and validate the article text has updated" time="1.136"/>
+<testcase classname=" End-to-End Test: MainPage" name="-should update the status headline and verify the change" time="1.179"/>
+<testcase classname=" End-to-End Test: MainPage" name="-should count the number of followed users" time="0.52"/>
+<testcase classname=" End-to-End Test: MainPage" name="-should add the user &quot;Follower&quot; to the list of followed user and verify the count increases by one" time="1.172"/>
+<testcase classname=" End-to-End Test: MainPage" name="-should remove the user &quot;Follower&quot; from the list of followed user and verify the count decreases by one" time="1.043"/>
+<testcase classname=" End-to-End Test: MainPage" name="-should search for &quot;Only One Article Like This&quot; and verify only one article show, and verify the author" time="1.244"/>
+<testcase classname="End-to-End Test: Update Profile" name="-should update the email and verify" time="1.473"/>
+<testcase classname="End-to-End Test: Update Profile" name="-should update the user zipcode and verify" time="1.464"/>
+<testcase classname="End-to-End Test: Update Profile" name="-should update the user password, verify a &quot;will not change&quot; message is returned" time="1.597"/>
+<testcase classname="shutdown" name="now" time="0.11"/>
+</testsuite>

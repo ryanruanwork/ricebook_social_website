@@ -1,0 +1,103 @@
+    body{
+      background-color: aqua;
+      font-family: Comic Sans MS;
+      font-size: 14px;
+      font-weight:bold
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    div.container{
+        border-style: outset;
+        border-color: black;
+        padding: 20px;
+    }
+    .jumbotron {
+    padding:50px 20px 50px 20px;
+    margin:10px auto;
+    opacity: 0.9;
+    background-color: aqua;
+    }
+    #reg_frm_btn{
+        margin-left:auto;
+        margin-right:auto;
+        width:40%;
+    }
+    #lgn_frm_btn{
+        margin-left:auto;
+        margin-right:auto;
+        width:35%;
+    }
+    #Clear{
+        width:30%;
+        margin-left:10%;
+    }
+    #header{
+        margin-left:auto;
+        margin-right:auto;
+        width:35%;
+    }
+    #rice_img{
+        margin-left:40%;
+        width:20%;
+    }
+    #btn_lnk{
+        position: relative;
+        top:5px;
+    }
+    #img_lgn_fb{
+        width: 150px; 
+        height: 50px;
+        margin-left:5%;
+    }
+    img{
+        height: 128px;
+        width: 128px;
+        padding: 8px;
+    }
+    #contain-setting{
+        border-style: outset;
+        border-color: black;
+        padding: 10px;
+        background-color: whitesmoke;
+    }
+    #search_area{
+        border-style: outset;
+        border-top-style: none;
+        border-bottom-style: none;
+        border-color: black;
+        padding: 10px;
+    }
+    textarea{
+        width: 80%
+    }
+    #update_sts_area{
+        margin-left: 25%;
+    }
+    #flwer_table{
+        margin-left:35%;
+    }
+    #profile_rice_img{
+        margin-left: 50%;
+        width: 200px;
+    }
+    #update_row{
+        border-bottom-style: outset;
+        border-color: black;
+        padding: 10px;
+    }
+    #main_page_btn_row{
+        border-bottom-style: outset;
+        border-color: black;
+        padding: 10px;
+    }
+    .row_table{
+        border-style: outset;
+        border-color: black;
+        padding: 10px;
+    }
+    [contenteditable="true"] {
+        background-color: Lavender;
+    }
+    [contenteditable="true"]:focus {
+        background-color: white;
+    }
